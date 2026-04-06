@@ -25,8 +25,8 @@ const Sidebar = () => {
   return (
     <aside className="w-64 bg-slate-50 border-r border-slate-200 min-h-screen flex flex-col">
       <div className="p-6">
-        <h1 className="text-xl font-bold text-bpjs-blue tracking-tight">BPJS ERP</h1>
-        <p className="text-xs text-slate-500 mt-1">Financial Dashboard</p>
+        <img src="/bpjs.svg" alt="BPJS ERP" className="h-8 mb-1" />
+        <p className="text text-slate-500 mt-2 text-bold">Financial Dashboard</p>
       </div>
 
       <nav className="flex-1 px-4 space-y-1">
