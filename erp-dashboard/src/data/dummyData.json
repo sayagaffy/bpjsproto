@@ -11,12 +11,13 @@
     { "id": "D003", "name": "Dana Cadangan Teknis", "amount": 3000000000, "status": "Active" }
   ],
   "laporanSeojk": [
-    { "id": "L01", "title": "Laporan Posisi Keuangan (Neraca)", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-01" },
-    { "id": "L02", "title": "Laporan Kinerja Keuangan (Laba Rugi)", "periode": "Q1 2026", "status": "Approved", "lastModified": "2026-04-03" },
-    { "id": "L03", "title": "Laporan Perubahan Aset Bersih", "periode": "Q1 2026", "status": "In Review", "lastModified": "2026-04-05" },
-    { "id": "L04", "title": "Laporan Arus Kas", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-06" },
-    { "id": "L05", "title": "Catatan atas Laporan Keuangan (CaLK)", "periode": "Q1 2026", "status": "Approved", "lastModified": "2026-04-02" },
-    { "id": "L06", "title": "Laporan Kinerja Portofolio Investasi", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-06" }
+    { "id": "L01", "title": "Laporan Posisi Keuangan BPJS dan DJS", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-01" },
+    { "id": "L02", "title": "Laporan Kinerja Keuangan BPJS", "periode": "Q1 2026", "status": "Approved", "lastModified": "2026-04-03" },
+    { "id": "L03", "title": "Laporan Penghasilan Komprehensif DJS", "periode": "Q1 2026", "status": "In Review", "lastModified": "2026-04-05" },
+    { "id": "L04", "title": "Laporan Arus Kas BPJS dan DJS", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-06" },
+    { "id": "L05", "title": "Laporan Perubahan Ekuitas BPJS", "periode": "Q1 2026", "status": "Approved", "lastModified": "2026-04-02" },
+    { "id": "L06", "title": "Laporan Perubahan Aset Neto DJS", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-06" },
+    { "id": "L07", "title": "Rasio Keuangan BPJS dan DJS", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-06" }
   ],
   "auditTrail": [
     { "id": "A001", "timestamp": "2026-04-06T09:12:00Z", "user": "Andi (Maker)", "action": "Drafted Laporan Kas", "module": "Neraca Saldo", "status": "Success" },

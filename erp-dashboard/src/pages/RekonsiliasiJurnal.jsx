@@ -9,8 +9,8 @@ const RekonsiliasiJurnal = () => {
     <div className="space-y-6">
       <div className="flex justify-between items-center">
         <div>
-          <h1 className="text-2xl font-bold text-slate-800 tracking-tight">Dashboard Rekonsiliasi Jurnal</h1>
-          <p className="text-slate-500 text-sm mt-1">Rekonsiliasi otomatis Transaksi vs Saldo Kas</p>
+          <h1 className="text-2xl font-bold text-slate-800 tracking-tight">Rekonsiliasi Rekap Slip Jurnal & Neraca</h1>
+          <p className="text-slate-500 text-sm mt-1">Rekonsiliasi otomatis data transaksi melawan Saldo Kas akhir</p>
         </div>
         <button className="bg-white border border-slate-300 text-slate-700 hover:bg-slate-50 px-4 py-2.5 rounded-lg flex items-center gap-2 font-medium transition-colors shadow-sm text-sm">
           <Download className="w-4 h-4" /> Export CSV
