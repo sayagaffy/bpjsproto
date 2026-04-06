@@ -1,0 +1,38 @@
+{
+  "asetBpjs": [
+    { "id": "B001", "name": "Kas dan Setara Kas", "amount": 1500000000, "status": "Active" },
+    { "id": "B002", "name": "Piutang Usaha", "amount": 350000000, "status": "Active" },
+    { "id": "B003", "name": "Investasi Jangka Pendek", "amount": 2000000000, "status": "Active" },
+    { "id": "B004", "name": "Aset Tetap", "amount": 5500000000, "status": "Active" }
+  ],
+  "asetDjs": [
+    { "id": "D001", "name": "Iuran DJS yang Belum Diterima", "amount": 450000000, "status": "Pending" },
+    { "id": "D002", "name": "Investasi DJS Jangka Panjang", "amount": 10500000000, "status": "Active" },
+    { "id": "D003", "name": "Dana Cadangan Teknis", "amount": 3000000000, "status": "Active" }
+  ],
+  "laporanSeojk": [
+    { "id": "L01", "title": "Laporan Posisi Keuangan (Neraca)", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-01" },
+    { "id": "L02", "title": "Laporan Kinerja Keuangan (Laba Rugi)", "periode": "Q1 2026", "status": "Approved", "lastModified": "2026-04-03" },
+    { "id": "L03", "title": "Laporan Perubahan Aset Bersih", "periode": "Q1 2026", "status": "In Review", "lastModified": "2026-04-05" },
+    { "id": "L04", "title": "Laporan Arus Kas", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-06" },
+    { "id": "L05", "title": "Catatan atas Laporan Keuangan (CaLK)", "periode": "Q1 2026", "status": "Approved", "lastModified": "2026-04-02" },
+    { "id": "L06", "title": "Laporan Kinerja Portofolio Investasi", "periode": "Q1 2026", "status": "Draft", "lastModified": "2026-04-06" }
+  ],
+  "auditTrail": [
+    { "id": "A001", "timestamp": "2026-04-06T09:12:00Z", "user": "Andi (Maker)", "action": "Drafted Laporan Kas", "module": "Neraca Saldo", "status": "Success" },
+    { "id": "A002", "timestamp": "2026-04-06T09:45:00Z", "user": "Budi (Checker)", "action": "Approved Laporan Kas", "module": "Neraca Saldo", "status": "Success" },
+    { "id": "A003", "timestamp": "2026-04-06T10:05:00Z", "user": "Siti (Maker)", "action": "Updated Investasi DJS", "module": "Manajemen Transaksi", "status": "Success" },
+    { "id": "A004", "timestamp": "2026-04-06T10:30:00Z", "user": "Budi (Checker)", "action": "Rejected Investasi DJS Update", "module": "Manajemen Transaksi", "status": "Failed" }
+  ],
+  "users": [
+    { "id": "U01", "name": "Andi Wijaya", "role": "Maker", "department": "Finance", "status": "Active" },
+    { "id": "U02", "name": "Budi Santoso", "role": "Checker", "department": "Risk Management", "status": "Active" },
+    { "id": "U03", "name": "Siti Nurhaliza", "role": "Maker", "department": "Investment", "status": "Active" },
+    { "id": "U04", "name": "Reza Rahadian", "role": "Admin", "department": "IT Support", "status": "Active" }
+  ],
+  "transactions": [
+    { "id": "TRX-101", "date": "2026-04-01", "description": "Penerimaan Iuran JKN", "account": "Kas DJS", "type": "Credit", "amount": 25000000000 },
+    { "id": "TRX-102", "date": "2026-04-02", "description": "Pembayaran Klaim RS", "account": "Hutang Klaim DJS", "type": "Debit", "amount": 18000000000 },
+    { "id": "TRX-103", "date": "2026-04-03", "description": "Beban Operasional IT", "account": "Beban IT BPJS", "type": "Debit", "amount": 120000000 }
+  ]
+}
